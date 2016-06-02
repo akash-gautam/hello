@@ -1,13 +1,13 @@
 package mr.app.hello;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class App {
+
+	public static String reverse(String msg) {
+		return new StringBuilder(msg).reverse().toString();
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(reverse(args.length>0 ? args[0] : "HELLO!"));
+	}
+
 }
