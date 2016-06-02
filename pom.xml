@@ -31,7 +31,7 @@
 				<version>1.4.0</version>
 				<configuration>
 					<mainClass>mr.app.hello.App</mainClass>
-					<!-- -Dexec.args="-n a1 -f conf/example/http-dump.conf" -->
+					<!-- -Dexec.args="MESSAGE" -->
 				</configuration>
 			</plugin>
 		</plugins>
